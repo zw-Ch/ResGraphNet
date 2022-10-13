@@ -15,20 +15,10 @@ Then, there are some Python packages need to be installed<br>
 -->
 
 ## Training and Testing Models
-The running programs based on different models is in [run](https://github.com/czw1296924847/GlobalTempNet/run),  and you can type the following command to train the model:<br>
+The running programs based on different models is in [run](https://github.com/czw1296924847/ResGraphNet/run),  and you can type the following command to train the model:<br>
 `python run_ResGraphNet.py`<br>
 
-
-<!---
-<p>
-
-## Plotting Figures
-The programs in [plot](https://github.com/czw1296924847/ResGraphNet/tree/main/plot) are used to plot some figures.<br>
-
 ## Graphical User Interface (GUI)
-We also provide a GUI program [run_python.py](https://github.com/czw1296924847/GlobalTempNet/blob/main/gui/run_python.py) so that you can test each dataset and each network model more quickly and intuitively, as shown in the following figure:<br>
+We also provide a GUI program [run_python.py](https://github.com/czw1296924847/ResGraphNet/gui/run_python.py) so that you can test each dataset and each network model more quickly and intuitively, as shown in the following figure:<br>
 
-![image]([https://github.com/czw1296924847/MagInfoNet/blob/main/dataset_structure.png](https://github.com/czw1296924847/ResGraphNet/blob/main/gui/gui_example.png))
-
-</p>
--->
+![image]([https://github.com/czw1296924847/ResGraphNet/gui/gui_example.png](https://github.com/czw1296924847/ResGraphNet/gui/gui_example.png))
