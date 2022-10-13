@@ -469,7 +469,7 @@ def sam(arr, iv, way="one"):
     return arr_sam
 
 
-def plot_spiral(x_list, fig_size=(12, 12), length=12, r=7):
+def plot_spiral(x_list, cmap, fig_size=(12, 12), length=12, r=7):
     fig, ax = plt.subplots(figsize=fig_size)
     # x = x + 1.5
     radius = r + 0.4
@@ -482,7 +482,7 @@ def plot_spiral(x_list, fig_size=(12, 12), length=12, r=7):
     linestyle_list = [(0, (5, 10)), 'solid']
     color = ['white', 'yellow']
     for j in range(len(x_list)):
-        x = x_list[j] + 0.9
+        x = x_list[j] + 1.5
         x_vals = []
         y_vals = []
         for i in range(0, len(x)):
@@ -495,8 +495,11 @@ def plot_spiral(x_list, fig_size=(12, 12), length=12, r=7):
         pts = np.array([x_vals, y_vals]).T.reshape(-1, 1, 2)
         segments = np.concatenate([pts[:-1], pts[1:]], axis=1)
 
-        lc = LineCollection(segments, cmap=plt.get_cmap('jet'), norm=plt.Normalize(0, 3.6), linestyle=linestyle_list[j],
-                            colors=color[j])
+        if not cmap:
+            lc = LineCollection(segments, norm=plt.Normalize(0, 3.6), linestyle=linestyle_list[j],
+                                colors=color[j])
+        else:
+            lc = LineCollection(segments, cmap=plt.get_cmap('jet'), norm=plt.Normalize(0, 3.6), linestyle=linestyle_list[j])
         lc.set_array(np.asarray(x))
         lc_list.append(lc)
 
