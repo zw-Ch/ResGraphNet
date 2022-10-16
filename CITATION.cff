@@ -1,1 +1,17 @@
-
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Chen"
+  given-names: "Ziwei"
+  orcid: "https://orcid.org/0000-0003-4418-7121"
+- family-names: "Wang"
+  given-names: "Zhiguo"
+  orcid: "https://orcid.org/0000-0003-0343-7278"
+- family-names: "Gao"
+  given-names: "Jinghuai"
+  orcid: ""
+title: "ResGraphNet"
+version: 1.0.0
+doi: 10.5281/zenodo.7213337
+date-released: 2022-10-16
+url: "https://github.com/czw1296924847/ResGraphNet"
