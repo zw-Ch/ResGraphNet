@@ -1,5 +1,5 @@
 # ResGraphNet
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7213337.svg)](https://doi.org/10.5281/zenodo.7213337)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7213337.svg)](https://doi.org/10.5281/zenodo.7213337)<br>
 ResGraphNet is a deep neural network used to predict temperature time series. It effectively combines Graph neural network (GNN) with ResNet modules.<br>
 The paper is available in <br>
 
