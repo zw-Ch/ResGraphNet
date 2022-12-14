@@ -1,7 +1,7 @@
 # ResGraphNet
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7213337.svg)](https://doi.org/10.5281/zenodo.7213337)<br>
 ResGraphNet is a deep neural network used to predict temperature time series. It effectively combines Graph neural network (GNN) with ResNet modules.<br>
-The paper is available in <br>
+The paper is available in [https://doi.org/10.1016/j.aiig.2022.11.001](https://www.sciencedirect.com/science/article/pii/S2666544122000314).
 
 ## Installation
 ResGraphNet is based on [Pytorch](https://pytorch.org/docs/stable/index.html) and [Pytorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/index.html)<br>
