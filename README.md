@@ -25,4 +25,4 @@ The running programs based on different models is in [run](https://github.com/zw
 ## Graphical User Interface (GUI)
 We also provide a GUI program [run_python.py](https://github.com/zw-Ch/ResGraphNet/blob/main/gui/run_python.py) so that you can test each dataset and each network model more quickly and intuitively, as shown in the following figure:<br>
 
-![image](https://github.com/czw1296924847/ResGraphNet/blob/main/gui_example.png)
+![image](https://github.com/zw-Ch/ResGraphNet/blob/main/gui_example.png)
