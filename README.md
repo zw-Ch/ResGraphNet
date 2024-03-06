@@ -19,7 +19,7 @@ conda install matplotlib
 -->
 
 ## Training and Testing Models
-The running programs based on different models is in [run](https://github.com/zw-Ch/ResGraphNet/run),  and you can type the following command to train the model:<br>
+The running programs based on different models is in [run](https://github.com/zw-Ch/ResGraphNet/tree/main/run),  and you can type the following command to train the model:<br>
 `python run_ResGraphNet.py`<br>
 
 ## Graphical User Interface (GUI)
